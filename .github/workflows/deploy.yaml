@@ -1,0 +1,11 @@
+name: deploying
+
+runs on: push
+  runs on: ubuntu-latest
+
+jobs:
+  name: deployment 
+    echo "This is our new deployment"
+  
+    steps:
+      echo "This is our new deployment"
