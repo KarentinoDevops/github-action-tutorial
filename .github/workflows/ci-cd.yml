@@ -1,0 +1,10 @@
+name: Memory
+
+on: push
+
+jobs:
+  hello-world:
+    name: "Echo Hello world"
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "hello world"
