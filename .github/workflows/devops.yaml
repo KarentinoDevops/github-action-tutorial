@@ -13,4 +13,6 @@ jobs:
       - name: list contents
         run: ls -la
 
+      - uses: actions/checkout@v7
+
 
