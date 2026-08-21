@@ -8,11 +8,11 @@ jobs:
 
     steps:
       - name: printing second session
-        run: echo "Devops second message"
-
-      - name: list contents
-        run: ls -la
+        run: echo "Devops second messages"
 
       - uses: actions/checkout@v7
+      
+      - name: list contents
+        run: ls -la
 
 
