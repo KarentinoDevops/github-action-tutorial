@@ -1,0 +1,12 @@
+name: second
+
+on: workflow_dispatch
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: printing second session
+        run: echo "Devops second message"
+        
