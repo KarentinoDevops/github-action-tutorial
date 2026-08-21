@@ -10,7 +10,7 @@ jobs:
       - name: printing second session
         run: echo "Devops second message"
 
-      - name: github actions actions
-        uses: actions/checkout@v7
+      - name: list contents
+        run: ls -la
 
 
