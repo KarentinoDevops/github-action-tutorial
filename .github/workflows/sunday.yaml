@@ -1,9 +1,11 @@
 name: sunday
 
-on: push
+on: 
+  push:
+  pull_request:
 
 jobs:
-  hello:
+  on pull and push:
     runs-on: ubuntu-latest
 
     steps:
