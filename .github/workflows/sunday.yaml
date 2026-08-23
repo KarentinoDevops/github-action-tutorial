@@ -1,0 +1,14 @@
+name: sunday
+
+on: push
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: first step
+      run: echo "Hello, Github Actions!"
+
+
+  
