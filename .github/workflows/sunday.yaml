@@ -5,7 +5,7 @@ on:
   pull_request:
 
 jobs:
-  on pull and push:
+  latest:
     runs-on: ubuntu-latest
 
     steps:
