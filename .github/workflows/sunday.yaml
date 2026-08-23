@@ -10,5 +10,8 @@ jobs:
     - name: first step
       run: echo "Hello, Github Actions!"
 
+    - name: second step
+      run: echo "I am happy today!"
+
 
   
