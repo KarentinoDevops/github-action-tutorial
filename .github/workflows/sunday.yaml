@@ -15,5 +15,14 @@ jobs:
     - name: second step
       run: echo "I am happy today!"
 
+    - name: third step
+      uses: actions/checkout@v7
+
+    - name: fourth step
+      run: |
+        uname
+        pwd
+        ls -la   
+
 
   
